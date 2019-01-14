@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.get('/checking',function(req,res){
 	res.json({
-		"fuck it":"dasd"
+		"it":"dasd"
 	});	
 });
 
